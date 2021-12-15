@@ -1,18 +1,18 @@
 {
-	“id”：“yangbo525.app.sub”，
-	名称：“yangbo525应用订阅”，
-	作者：“@yangbo525”，
-	图标：“”，
-	“repo”：“https://github.com/yangbo525/shiyi”，
-	“应用程序”：[
+	"id": "yangbo525.app.sub",
+	"name": "yangbo525应用订阅",
+	"author": "@yangbo525",
+	"icon": "",
+	"repo": "https://github.com/yangbo525/shiyi",
+	"apps": [
 		{
-			“id”：“九章头条”，
-			“名字”：“柠檬九章头条”，
-			“钥匙”：[“cashtx”、“cashtx2”]，
-			作者：“@yangbo525”，
-			“repo”：“https://github.com/yangbo525/shiyi/blob/main/jiuzhangtoutiao.js”，
-			图标：[
-				circles.hexagongrid.fill.system",
-				circcircles.hexagongrid.fill.system
-			】
-		}，
+			"id": "jiuzhangtoutiao",
+			"name": "柠檬九章头条",
+			"keys": ["cashtx","cashtx2"],
+			"author": "@yangbo525",
+			"repo": "https://github.com/yangbo525/shiyi/blob/main/jiuzhangtoutiao.js",
+			"icons": [
+				"circles.hexagongrid.fill.system",
+				"circles.hexagongrid.fill.system"
+			]
+		},
