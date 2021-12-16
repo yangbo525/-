@@ -6,13 +6,33 @@
 	"repo": "https://github.com/yangbo525/shiyi",
 	"apps": [
 		{
-			"id": "jiuzhangtoutiao",
-			"name": "柠檬九章头条",
-			"keys": ["cashtx","cashtx2"],
-			"author": "@yangbo525",
-			"repo": "https://github.com/yangbo525/shiyi/blob/main/jiuzhangtoutiao.js",
+			"id": "testflight",
+			"name": "tf监控",
+			"keys": [],
+			"settings": [
+				{
+					"id": "appkey",
+					"name": "监控appkey",
+					"val": "",
+					"type": "textarea",
+					"placeholder": "VCIvwk2g,1SyedSId",
+					"autoGrow": true,
+					"rows": 1,
+					"desc": "以英文逗号分隔多个key"
+				},
+				{
+					"id": "testflight_isnotify",
+					"name": "是否静默通知",
+					"val": "",
+					"type": "boolean",
+					"placeholder": "true or false",
+					"autoGrow": true,
+					"rows": 1,
+					"desc": "没有tf位置将不会通知"
+				}
+			],
+			"author": "@syzzzf",
+			"repo": "https://github.com/songyangzz/QuantumultX/blob/master/testflight.js",
 			"icons": [
-				"circles.hexagongrid.fill.system",
-				"circles.hexagongrid.fill.system"
-			]
-		},
+				"https://raw.githubusercontent.com/Orz-3/mini/master/testflight.png",
+				"https://raw.githubusercontent.com/Orz-3/task/master/testflight.png"
